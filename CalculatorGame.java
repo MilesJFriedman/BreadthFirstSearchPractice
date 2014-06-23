@@ -13,14 +13,15 @@ public class CalculatorGame {
 		int testCases = 0;
 		int startingNum = -1;
 		
-		//create a boolean array to keep track of found numbers 1-100 and initialize the 0th
-		//element to true because it won't be used.
-		boolean[] found = new boolean[101];
-		found[0] = true;
-		
 		testCases = input.nextInt();
+		//System.out.println(testCases);
 		
-		//for (int i = 0; i < testCases; i++) { 
+		for (int i = 0; i < testCases; i++) { 
+			//create a boolean array to keep track of found numbers 1-100 and initialize the 0th
+			//element to true because it won't be used.
+			boolean[] found = new boolean[101];
+			found[0] = true;
+			
 			//get the starting number from the input file and create the starting QueueNode
 			startingNum = input.nextInt();
 			//System.out.println(startingNum);
@@ -29,7 +30,7 @@ public class CalculatorGame {
 			
 			//run the breadth first search
 			BFS (found, node);
-		//}
+		}
 		
 	}
 
