@@ -5,6 +5,12 @@ import java.io.FileNotFoundException;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+/**
+ * CalculatorGame.java
+ * 
+ * @author Miles Friedman m3488030 COP3503C P3
+ * @version 6/20/14
+ */
 public class CalculatorGame {
 
 	public static void main(String[] args) throws Exception {

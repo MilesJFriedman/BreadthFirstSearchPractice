@@ -1,5 +1,11 @@
 package homework3BFS;
 
+/**
+ * QueueNode.java
+ * 
+ * @author Miles Friedman m3488030 COP3503C P3
+ * @version 6/20/14
+ */
 public class QueueNode {
 	
 	private int distanceFromStart;
